@@ -97,10 +97,8 @@ while count > 0:
 
     txs = unpackBlock(block_message, False)
 
-    print(len(txs))
-
     for tx in txs:
         log += "{}\n".format(tx.hex())
 
 
-#print(log)
+print(log)
